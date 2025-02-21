@@ -1,11 +1,13 @@
-import React from 'react';
 import "./Navbar.css"
+import Logo from "../../assets/Logo"
 
 const Navbar = () => {
     return (
-        <div>
-            Navbar
-        </div>
+        <nav className="card flex__center navbar">
+            <div className="flex__center log">
+                <Logo/>
+            </div>
+        </nav>
     )
 }
 
