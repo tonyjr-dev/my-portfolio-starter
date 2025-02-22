@@ -1,0 +1,23 @@
+.navbar{
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+    z-index: 200;
+    width: 90%;
+    max-width: 1000px;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+.navbar .logo{
+    cursor: pointer;
+}
+.navbar .logo svg{
+    width: 30px;
+    height: 30px
+}
+.navbar .sidebar__middle{
+    align-items: center;
+}
