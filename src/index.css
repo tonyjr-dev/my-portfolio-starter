@@ -248,3 +248,9 @@ img {
   margin-bottom: 40px;
   text-align: center;
 }
+/* Configurações globais */
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}

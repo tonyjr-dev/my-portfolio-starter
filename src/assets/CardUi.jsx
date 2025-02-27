@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const CardUi = ({color, width, height, background,className}) => {
   return (
     <svg
@@ -40,6 +42,14 @@ const CardUi = ({color, width, height, background,className}) => {
       />
     </svg>
   );
+};
+
+CardUi.propTypes = {
+  color: PropTypes.string,
+  width: PropTypes.string,
+  height: PropTypes.string,
+  background: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default CardUi;

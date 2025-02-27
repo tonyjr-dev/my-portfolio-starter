@@ -273,24 +273,24 @@ export const skills = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
+    value: "nomadi.selvagem@gmail.com",
+    link: "",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
   },
   {
     name: "Messenger",
-    value: "Emmanuel Eze",
-    link: "http://m.me/profile?id=profile-i",
+    value: "Tonny Cyborg",
+    link: "",
     icon: messengericon,
     btnIcon: <RiMessengerLine />,
     color: "rgb(139,74,251)",
   },
   {
     name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
+    value: "+2799",
+    link: "",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
@@ -315,14 +315,14 @@ export const socialHandles = [
   {
     name: "Youtube",
     icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link: "",
   },
 ];
 
 export const testimonials = [
   {
     avatar: profile3,
-    name: "Samuel Eze",
+    name: "Tonny ",
     review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
